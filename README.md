@@ -28,7 +28,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Additive observed work | 0.2h | 0.2h | 0.2h | 0.2h |
-| Interactive sessions | 3 | 3 | 7 | 7 |
+| Interactive sessions | 4 | 4 | 8 | 8 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -45,12 +45,13 @@ _AI session 365-day totals cover 16 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | nemotron-3-ultra-free | 17 | 855K | 3K | 2.1M | 71.1% | 3 | 0.2h |
 | big-pickle | 15 | 441K | 3K | 1.2M | 74.1% | 2 | 0.0h |
+| deepseek-v4-pro | 7 | 204K | 1K | 981K | 82.8% | 1 | — |
 | cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0.0% | 1 | 0.0h |
 | gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0.0% | 1 | — |
 | copilot | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **36** | **1.5M** | **7K** | **3.3M** | **68.5%** | **7** | **—** |
+| **Total** | **43** | **1.7M** | **8K** | **4.3M** | **71.2%** | **8** | **—** |
 
-_4.9M total tokens processed. 68.5% cache hit rate._
+_6.1M total tokens processed. 71.2% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -225,7 +226,7 @@ _4.9M total tokens processed. 68.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 09:58 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 12:58 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
