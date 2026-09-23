@@ -43,15 +43,15 @@ _AI session 365-day totals cover 16 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| deepseek-v4-pro | 25 | 244K | 3K | 5.2M | 95.5% | 1 | — |
 | nemotron-3-ultra-free | 17 | 855K | 3K | 2.1M | 71.1% | 3 | 0.2h |
 | big-pickle | 15 | 441K | 3K | 1.2M | 74.1% | 2 | 0.0h |
-| deepseek-v4-pro | 7 | 204K | 1K | 981K | 82.8% | 1 | — |
 | cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0.0% | 1 | 0.0h |
 | gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0.0% | 1 | — |
 | copilot | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **43** | **1.7M** | **8K** | **4.3M** | **71.2%** | **8** | **—** |
+| **Total** | **61** | **1.7M** | **10K** | **8.6M** | **82.7%** | **8** | **—** |
 
-_6.1M total tokens processed. 71.2% cache hit rate._
+_10.4M total tokens processed. 82.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -226,7 +226,7 @@ _6.1M total tokens processed. 71.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 12:58 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 13:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
