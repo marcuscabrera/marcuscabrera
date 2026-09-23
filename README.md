@@ -18,7 +18,39 @@
 > Stats auto-updated by [aidevops](https://aidevops.sh).
 
 <!-- STATS-START -->
-<!-- Stats will be populated on first update -->
+## Work with AI
+
+| Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
+| --- | ---: | ---: | ---: | ---: |
+| Screen time (Linux) | 15.6h | 155.9h | 397.3h | ~7632h* |
+| Interactive human attention | 0.1h | 0.1h | 0.1h | 0.1h |
+| Interactive AI generation | 0.1h | 0.1h | 0.1h | 0.1h |
+| Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
+| Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
+| Additive observed work | 0.2h | 0.2h | 0.2h | 0.2h |
+| Interactive sessions | 3 | 3 | 7 | 7 |
+| Worker sessions | 0 | 0 | 0 | 0 |
+
+_Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
+
+_Periods are completed local calendar days ending at midnight; today is excluded._
+
+_Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
+
+_AI session 365-day totals cover 16 days of local assistant session history (not extrapolated)._
+
+## AI Model Usage (all time)
+
+| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| big-pickle | 15 | 441K | 3K | 1.2M | 74.1% | 2 | 0.0h |
+| nemotron-3-ultra-free | 12 | 781K | 2K | 1.0M | 56.5% | 3 | — |
+| cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0.0% | 1 | 0.0h |
+| gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0.0% | 1 | — |
+| copilot | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **31** | **1.4M** | **6K** | **2.2M** | **60.6%** | **7** | **—** |
+
+_3.7M total tokens processed. 60.6% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -193,13 +225,20 @@
 ---
 
 <!-- UPDATED-START -->
+_Stats auto-updated 2026-09-23 09:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
+<!-- TOTAL-CONTRIBUTIONS-START -->
 <div align="center">
-  <a href="https://commit-history.com/marcuscabrera?metric=total">
+  <a href="https://commit-history.com/marcuscabrera?metric=total" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/marcuscabrera?theme=dark" />
-      <img alt="marcuscabrera's commit history" src="https://commit-history.com/embed/marcuscabrera" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/total-dark.svg" />
+      <img alt="marcuscabrera's cumulative total GitHub contributions" src="assets/contributions/total-light.svg" width="960" />
     </picture>
   </a>
 </div>
+
+[Verify on commit-history.com](https://commit-history.com/marcuscabrera?metric=total) · [Chart data](assets/contributions/total.json)
+
+Includes commits, issues, pull requests, reviews, repositories, and restricted contributions. Refreshed daily through the prior UTC day; commit-history.com may use a different refresh cutoff. GitHub controls link navigation—Ctrl/Cmd-click opens verification in a new tab.
+<!-- TOTAL-CONTRIBUTIONS-END -->
