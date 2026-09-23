@@ -44,13 +44,13 @@ _AI session 365-day totals cover 16 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 15 | 441K | 3K | 1.2M | 74.1% | 2 | 0.0h |
-| nemotron-3-ultra-free | 12 | 781K | 2K | 1.0M | 56.5% | 3 | — |
+| nemotron-3-ultra-free | 13 | 804K | 3K | 1.3M | 63.0% | 3 | 0.1h |
 | cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0.0% | 1 | 0.0h |
 | gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0.0% | 1 | — |
 | copilot | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **31** | **1.4M** | **6K** | **2.2M** | **60.6%** | **7** | **—** |
+| **Total** | **32** | **1.5M** | **6K** | **2.6M** | **63.7%** | **7** | **—** |
 
-_3.7M total tokens processed. 60.6% cache hit rate._
+_4.1M total tokens processed. 63.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
