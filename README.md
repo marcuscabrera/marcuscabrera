@@ -22,13 +22,13 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 155.9h | 421.3h | ~7689h* |
-| Interactive human attention | 0.1h | 0.1h | 0.1h | 0.1h |
-| Interactive AI generation | 0.4h | 0.4h | 0.5h | 0.5h |
+| Screen time (Linux) | 24h | 155.9h | 445.3h | ~7689h* |
+| Interactive human attention | 0.0h | 0.1h | 0.1h | 0.1h |
+| Interactive AI generation | 0.0h | 0.4h | 0.5h | 0.5h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
-| Additive observed work | 0.5h | 0.5h | 0.6h | 0.6h |
-| Interactive sessions | 2 | 4 | 8 | 8 |
+| Additive observed work | 0.0h | 0.5h | 0.6h | 0.6h |
+| Interactive sessions | 0 | 4 | 8 | 8 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -226,7 +226,7 @@ _15.4M total tokens processed. 88.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-25 00:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-25 03:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
