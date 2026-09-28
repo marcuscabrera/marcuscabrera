@@ -41,15 +41,15 @@ _AI session 365-day totals cover 17 days of local assistant session history (not
 
 ## AI Model Usage (all time)
 
-| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-pro | 42 | 251K | 7K | 10.2M | 97.6% | 1 | 0.3h |
-| nemotron-3-ultra-free | 17 | 855K | 3K | 2.1M | 71.1% | 3 | 0.2h |
-| big-pickle | 15 | 441K | 3K | 1.2M | 74.1% | 2 | 0.0h |
-| cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0.0% | 1 | 0.0h |
-| gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0.0% | 1 | — |
-| copilot | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **78** | **1.8M** | **14K** | **13.6M** | **88.3%** | **8** | **—** |
+| Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| deepseek-v4-pro | 42 | 251K | 7K | 10.2M | 0 | 97.6% | 1 | 0.3h |
+| nemotron-3-ultra-free | 17 | 855K | 3K | 2.1M | 0 | 71.1% | 3 | 0.2h |
+| big-pickle | 15 | 441K | 3K | 1.2M | 0 | 74.1% | 2 | 0.0h |
+| cmc/deepseek/deepseek-v4-flash | 2 | 257K | 173 | 0 | 0 | 0.0% | 1 | 0.0h |
+| copilot | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| gc/gemini-3-pro-preview | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | — |
+| **Total** | **78** | **1.8M** | **14K** | **13.6M** | **0** | **88.3%** | **8** | **—** |
 
 _15.4M total tokens processed. 88.3% cache hit rate._
 <!-- STATS-END -->
@@ -226,7 +226,7 @@ _15.4M total tokens processed. 88.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-28 03:16 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-28 04:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
