@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "marcuscabrera",
-  "updated": "2026-10-08",
-  "through": "2026-10-07",
+  "updated": "2026-10-09",
+  "through": "2026-10-08",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 247,
+  "total": 244,
   "months": [
     {
       "month": "2021-09",
@@ -248,73 +248,73 @@
     },
     {
       "month": "2025-09",
-      "total": 42,
-      "cumulative": 64
+      "total": 41,
+      "cumulative": 63
     },
     {
       "month": "2025-10",
       "total": 87,
-      "cumulative": 151
+      "cumulative": 150
     },
     {
       "month": "2025-11",
       "total": 21,
-      "cumulative": 172
+      "cumulative": 171
     },
     {
       "month": "2025-12",
       "total": 1,
-      "cumulative": 173
+      "cumulative": 172
     },
     {
       "month": "2026-01",
-      "total": 8,
-      "cumulative": 181
+      "total": 7,
+      "cumulative": 179
     },
     {
       "month": "2026-02",
       "total": 1,
-      "cumulative": 182
+      "cumulative": 180
     },
     {
       "month": "2026-03",
-      "total": 12,
-      "cumulative": 194
+      "total": 11,
+      "cumulative": 191
     },
     {
       "month": "2026-04",
       "total": 21,
-      "cumulative": 215
+      "cumulative": 212
     },
     {
       "month": "2026-05",
       "total": 18,
-      "cumulative": 233
+      "cumulative": 230
     },
     {
       "month": "2026-06",
       "total": 8,
-      "cumulative": 241
+      "cumulative": 238
     },
     {
       "month": "2026-07",
       "total": 2,
-      "cumulative": 243
+      "cumulative": 240
     },
     {
       "month": "2026-08",
       "total": 2,
-      "cumulative": 245
+      "cumulative": 242
     },
     {
       "month": "2026-09",
       "total": 2,
-      "cumulative": 247
+      "cumulative": 244
     },
     {
       "month": "2026-10",
       "total": 0,
-      "cumulative": 247
+      "cumulative": 244
     }
   ]
 }
